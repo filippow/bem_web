@@ -23,39 +23,37 @@
             <button class="button userbar__logout button-color_blue">Logout</button>
         </div>
     </section>
-    <section class="main page__main">
-        <ul class="list messages-bar">
-            <li class="list__item messages-bar__message">
-                <div class="message">
-                    <span class="message__sender">Robert: </span>
-                    <span class="message__text">Hello, Thomas!</span>
-                    <div class="message__date">31.07.2018 09:20:29</div>
+    <section class="page__main">
+        <ul class="messages-bar">
+            <li class="messages-bar__message">
+                <div class="msg">
+                    <span class="msg__sender">Robert: </span>
+                    <span class="msg__text">Hello, Thomas!</span>
+                    <div class="msg__date">31.07.2018 09:20:29</div>
                 </div>
             </li>
-            <li class="list__item messages-bar__message messages-bar__message_side_right">
-                <div class="message message_side_right">
-                    <span class="message__sender">Thomas: </span>
-                    <span class="message__text">Hello, Thomas!</span>
-                    <div class="message__date">31.07.2018 09:20:24</div>
+            <li class="messages-bar__message messages-bar__message_side_right">
+                <div class="msg msg_side_right">
+                    <span class="msg__sender">Thomas: </span>
+                    <span class="msg__text">Hello, Thomas!</span>
+                    <div class="msg__date">31.07.2018 09:20:24</div>
                 </div>
             </li>
-            <li class="list__item messages-bar__message">
-                <div class="message">
-                    <span class="message__sender">noname: </span>
-                    <span class="message__text">Hello, everybody!</span>
-                    <div class="message__date">04.09.2018 15:33:39</div>
+            <li class="messages-bar__message">
+                <div class="msg">
+                    <span class="msg__sender">noname: </span>
+                    <span class="msg__text">Hello, everybody!</span>
+                    <div class="msg__date">04.09.2018 15:33:39</div>
                 </div>
             </li>
         </ul>
     </section>
-    <section class="page__input-text-bar">
-        <div class="input-text-bar">
-            <button class="button button-color_red">Clear</button>
-            <form class="input-message">
-                <input type="text" class="input-message__text">
-                <button class="button">Send</button>
-            </form>
-        </div>
+    <section class="input-text-bar page__input-text-bar">
+        <button class="button input-text-bar__clear button-color_red">Clear</button>
+        <form class="input-msg input-text-bar__form">
+            <input class="input-msg__text" type="text">
+            <button class="button input-msg__send">Send</button>
+        </form>
     </section>
 </body>
 

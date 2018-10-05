@@ -1,16 +1,11 @@
-.list {
-  padding: 0;
-  margin: 0;
-}
-
-.list__item {
-  list-style-type: none;
-}
-
 .link {
   text-decoration: none;
   color: #000;
 }
+
+/*======================
+button
+======================*/
 
 .button {
   text-align: center;
@@ -105,7 +100,9 @@ header
   border: 1px solid black; */
 }
 
-.header__navbar {/* border: 1px dashed blue; */}
+.header__navbar {
+  /* border: 1px dashed blue; */
+}
 
 /*======================
 logo
@@ -119,7 +116,8 @@ logo
 navbar
 ======================*/
 
-.navbar {}
+.navbar {
+}
 
 .navbar__link {
   display: inline-block;
@@ -134,7 +132,8 @@ navbar
 userbar
 ======================*/
 
-.userbar {}
+.userbar {
+}
 
 .userbar__greeteings {
   margin: 0;
@@ -142,10 +141,15 @@ userbar
   display: inline-block;
 }
 
+/*======================
+messages-bar
+======================*/
+
 .messages-bar {
+  padding: 15px;
+  margin: 0;
   background-image: url("./background.png");
   background-size: 55% auto;
-  padding: 15px;
   min-height: 350px;
   max-height: 350px;
   overflow: auto;
@@ -160,7 +164,11 @@ userbar
   justify-content: flex-end;
 }
 
-.message {
+/*======================
+msg
+======================*/
+
+.msg {
   border-radius: 15px;
   background-color: rgb(208, 255, 208);
   padding: 10px;
@@ -171,19 +179,52 @@ userbar
   box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
 }
 
-.message_side_right {
+.msg_side_right {
   background-color: rgb(212, 255, 249);
 }
 
-.message__sender {
+.msg__sender {
   font-weight: bold;
 }
 
-.message__date {
+.msg__date {
   margin: 0;
   font-style: italic;
   font-size: 8pt;
   color: dimgray;
 }
 
-/*позиционирование футера*/
+/*======================
+input-text-bar
+======================*/
+
+.input-text-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.input-text-bar__clear {}
+
+.input-text-bar__form {
+  margin-left: 10px;
+}
+
+/*======================
+input-msg
+======================*/
+
+.input-msg {
+  flex: 12 3 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-msg__text {
+  flex: 12 3 100%;
+}
+
+.input-msg__send {
+  margin-left: 10px;
+}
+
